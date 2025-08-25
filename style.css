@@ -1,0 +1,77 @@
+body {
+    background-color: #000; /*Cor do fundo*/
+}
+
+button {
+    background-color: #1d0c20; /*Cor do fundo*/
+    border: none; /*Nao tem borda*/
+    color: #fff; /*Cor do texto*/
+    padding: 15px 32px; /*Margem internas*/
+    text-decoration: none; /*Nao tem*/
+    font-size: 1.2rem; /*Utilizando rem novamente*/
+    border-radius: 4px; /*Bordas redondas*/
+    cursor:pointer; /*Mudar formato do cursor do mouse*/
+}
+
+.container {
+    background-color: #ffebcd; /*Cor do fundo*/
+    padding: 40px; /*Margem internas*/
+    width: 450px; /*Largura*/
+    margin:auto; /*Margem automatica*/
+    display: flex; 
+    flex-direction: column; 
+}
+
+.traffic-light {
+    background-color: #000000;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.panel {
+    background-color: #808080; /*Cor do fundo*/
+    margin:10px; /*Margem automatica*/
+    padding: 10px; /*Margem internas*/
+    display: flex; 
+    flex-direction: column; 
+    row-gap: 20px ; /*distancia entre os elementos, no caso os circulos*/
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin: auto; /*Deixa os circulos alinhados*/
+    border-color: #000;
+    border-width: medium; /*Largura da borda*/
+    border-style: solid; /*Necessario para que o border-widrh apareça*/
+    border-radius: 50%; /*Transforma o quadrado em circulo, porque seria o raio da borda*/
+}
+
+.red-light {
+    background-color: #ff0000;
+}
+
+.yellow-light {
+    background-color: #ffff00;
+}
+
+.green-light {
+    background-color: #00ff00;
+}
+
+.light-off {
+    width: 50px;
+    height: 50px;
+    background-color: #3f3f3f;
+    margin: auto; /*Deixa os circulos alinhados*/
+    border-color: #000;
+    border-width: medium; /*Largura da borda*/
+    border-style: solid; /*Necessario para que o border-widrh apareça*/
+    border-radius: 50%; /*Transforma o quadrado em circulo, porque seria o raio da borda*/
+ 
+}
