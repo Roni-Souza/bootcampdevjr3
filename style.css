@@ -13,6 +13,11 @@ button {
     cursor:pointer; /*Mudar formato do cursor do mouse*/
 }
 
+button:hover {
+    background-color: #651f71;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .container {
     background-color: #ffebcd; /*Cor do fundo*/
     padding: 40px; /*Margem internas*/
